@@ -11,6 +11,8 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 
 {% for post in site.posts %}
 
+---
+
 ## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
 #### {{post.category}}
@@ -19,8 +21,5 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 
 #### ![img](http://jksr.github.io/images/post_images/{{ post.date | date: "%Y-%m-%d"}}/highlight.png)
 
----
-
 {% endfor %}
-
 
