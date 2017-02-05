@@ -15,7 +15,7 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 
 ## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
-#### {{post.category}}
+#### Category: {{post.category}}
 
 #### {{ post.date | date: "%Y-%m-%d" }}
 
