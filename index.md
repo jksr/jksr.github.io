@@ -15,10 +15,12 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 
 # {{ cate | first }}
 
+haha
+
 {% for posts in cate %}
 {% for post in posts %}
 
-## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
+## [hehe {{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
 #### ![img](http://jksr.github.io/images/post_images/{{ post.date | date: "%Y-%m-%d"}}/highlight.png)
 
