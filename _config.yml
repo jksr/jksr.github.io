@@ -1,0 +1,7 @@
+name: JKSR's Website
+author: JKSR (Wei Tian)
+author_email: jksr.tw@gmail.com
+markdown: kramdown
+permalink: posts/:categories/:title
+url: http://jksr.github.io/
+include: ["_pages"]
