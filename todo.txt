@@ -1,5 +1,9 @@
 add analytics
 add seo like sitemap etc
-add fig to rss feed
+add rss
 automatically gen index.md
+
+add cv
+add publication
+add research
 
