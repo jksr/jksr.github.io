@@ -11,7 +11,7 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 
 {% for post in site.posts %}
 
----
+***
 
 ## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
