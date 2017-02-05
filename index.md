@@ -12,16 +12,16 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 {% for cate in site.categories %}
 
 ***
-
 # {{ cate | first }}
 
-{% for post in site.categories[cate] %}
+{% for posts in cate %}
+{% for post in posts %}
 
 ## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
 #### ![img](http://jksr.github.io/images/post_images/{{ post.date | date: "%Y-%m-%d"}}/highlight.png)
 
 {% endfor %}
-
+{% endfor %}
 {% endfor %}
 
