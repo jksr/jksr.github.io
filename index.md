@@ -9,15 +9,20 @@ title: JKSR's website
 
 this is a [test post](https://jksr.github.io/posts/mytest/test)
 
-{% for CATE in site.categories %}
-{% for POST in site.categories.CATE %}
-***
-# {{ CATE }}
+{% for cate in site.categories %}
 
-## [{{ POST.title }}]( http://jksr.github.io{{ post.url }} )
+***
+
+{% for posts in cate %}
+{% for post in posts %}
+
+# {{ cate }}
+
+## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
 #### ![img](http://jksr.github.io/images/post_images/{{ post.date | date: "%Y-%m-%d"}}/highlight.png)
 
+{% endfor %}
 {% endfor %}
 {% endfor %}
 
