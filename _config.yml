@@ -5,3 +5,5 @@ markdown: kramdown
 permalink: posts/:categories/:title
 url: http://jksr.github.io/
 include: ["_pages"]
+gems:
+  - jekyll-sitemap
