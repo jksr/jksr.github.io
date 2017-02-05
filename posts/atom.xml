@@ -19,6 +19,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://jksr.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<category term={{post.category}}/>
 			<id>http://jksr.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>

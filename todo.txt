@@ -1,3 +1,5 @@
 add analytics
 add seo like sitemap etc
+add fig to rss feed
+automatically gen index.md
 
