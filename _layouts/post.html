@@ -1,6 +1,6 @@
 ---
 layout: default
-comments: True
+comments: true
 ---
 <h1>{{ page.title }}</h1>
 <p>{{ category }}</p>
@@ -12,8 +12,8 @@ comments: True
 
 {% if page.comments %}
 <h1>lalallala</h1>
-<div>
 <div id="disqus_thread"></div>
+
 <script>
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -32,6 +32,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<script id="dsq-count-scr" src="//jksrs-website.disqus.com/count.js" async></script>
-</div>
 {% endif %}
