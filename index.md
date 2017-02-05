@@ -16,7 +16,7 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 {% for posts in cate %}
 {% for post in posts %}
 
-# {{ cate }}
+# {{ cate | first }}
 
 ## [{{ post.title }}]( http://jksr.github.io{{ post.url }} )
 
