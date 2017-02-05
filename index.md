@@ -15,7 +15,7 @@ this is a [test post](https://jksr.github.io/posts/mytest/test)
 
 #### {{post.category}}
 
-#### {{ post.date | date_to_xmlschema }}
+#### {{ post.date | date: "%Y-%m-%d" }}
 
 #### ![img](http://jksr.github.io/images/post_images/{{ post.date | date: "%Y-%m-%d"}}/highlight.png)
 
