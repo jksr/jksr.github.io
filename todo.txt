@@ -2,8 +2,16 @@ add analytics
 add seo like sitemap etc
 add rss
 automatically gen index.md
+	<a href = ''>
+	<div class = 'haha'>
+	<img>
+	<h3>
+	</div>
+	</a>
 
 add cv
 add publication
 add research
+change highlight.png to cover.png
+
 
