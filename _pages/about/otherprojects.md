@@ -3,7 +3,10 @@ layout: about
 title: Other projects
 permalink: "/about/otherprojects.html"
 ---
-<h2>o1</h2>
-<h2>o2</h2>
-<h2>o3</h2>
-<h2>o4</h2>
+## o1 ##
+
+## o2 ##
+
+## o3 ##
+
+## o4 ##
